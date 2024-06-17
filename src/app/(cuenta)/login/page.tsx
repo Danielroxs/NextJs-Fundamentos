@@ -1,3 +1,16 @@
+"use client";
+import { useRouter } from "next/navigation"
+
 export default function Login() {
-    return <h1>Iniciar Sesion</h1>
+    const router = useRouter()
+
+  const handleClick = () => {
+    router.push("/")
+  }
+    return (
+    <>
+      <h1>Iniciar Sesion</h1>
+      <button onClick={handleClick}>Regresar al Home</button>
+    </>
+    )
 } 

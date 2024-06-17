@@ -3,6 +3,10 @@ export const metadata = {
   description: 'Estas en la seccion de contacto',
 }
 
-export default function Contacto () {
-  return <h1>Contacto</h1>
-}
+export default function Contacto() {
+  
+
+    return (
+        <h1>Contacto</h1>
+    )
+  }

@@ -34,6 +34,8 @@ export default function RootLayout({
             <Link href={"/contacto"}>Contacto</Link>
             -
             <Link href={"/productos"}>Productos</Link>
+            -
+            <Link href={"/login"}>Login</Link>
           </nav>
         </header>
         <main>{children}</main>
