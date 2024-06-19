@@ -1,3 +1,5 @@
+import Card from "@/components/Card";
+
 export default function Analytics() {
-    return <h2>Seccion de Estadisticas de la transmision</h2>
+    return <Card><h2>Seccion de Estadisticas de la transmision</h2></Card> 
 }
